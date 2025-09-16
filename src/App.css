@@ -1,1 +1,9 @@
 @import "tailwindcss";
+@font-face {
+    font-family: 'sans';
+    src: url(../public/93f479601ee12b01-s.p.ttf);
+}
+@font-face {
+    font-family: 'ans';
+    src: url(../public/569ce4b8f30dc480-s.p.ttf)        ;
+}
