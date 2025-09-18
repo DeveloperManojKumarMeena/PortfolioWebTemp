@@ -75,10 +75,10 @@ const Home = () => {
 
 
           <div className="bg-amber-500 w-[600px] h-[400px] absolute top-[250px] left-[18%] rounded-t-full " id="home-div">
-            <img className="w-[800px] h-[800px]  absolute hidden top-[-500px]   overflow-hidden " src="public/model 1 bg.svg" alt="" id="bgimg" />
+            <img className="w-[800px] h-[800px]  absolute scale-0 top-[-500px]   overflow-hidden " src="public/model 1 bg.svg" alt="" id="bgimg" />
             <img src="https://i.postimg.cc/zBFG4vr4/my-photo-removebg-preview-1.png" alt="" className="absolute top-[-200px] w-[600px] h-[600px] overflow-hidden" />
             <div className="bg-[rgba(255,255,255,0.32)] w-[300px] h-[80px] absolute bottom-[50px] left-[150px] rounded-3xl flex justify-around items-center">
-              <button className=''>Portfolio</button><button className=' font-sans font-semibold bg-amber-500 py-6 px-15 text-stone-50 text-2xl  rounded-3xl'>Hire Me <i className="ri-arrow-right-up-line"></i></button>
+              <button className='(e)=>{console.log(e)}'>Portfolio</button><button className=' font-sans font-semibold bg-amber-500 py-6 px-15 text-stone-50 text-2xl  rounded-3xl'>Hire Me <i className="ri-arrow-right-up-line"></i></button>
             </div>
           </div  >
         </div>
